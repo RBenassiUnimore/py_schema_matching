@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-from data_integration import to_gmm
-from data_integration.local import local_match_table, local_attribute_table
+from py_schema_matching.data_integration import to_gmm
+from py_schema_matching.data_integration.local import local_match_table, local_attribute_table
 
 
 def transitive_closure(edges):

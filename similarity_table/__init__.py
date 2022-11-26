@@ -1,7 +1,7 @@
 import pandas as pd
 
-from string_matching import string_preprocess
-from utils import cross_join_columns
+from py_schema_matching.string_matching import string_preprocess
+from py_schema_matching.utils import cross_join_columns
 
 
 def to_table(matrix: pd.DataFrame, vals_name):

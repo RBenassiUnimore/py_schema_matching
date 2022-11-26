@@ -1,5 +1,5 @@
 import pandas as pd
-from correspondances.local import sort_group_cumcount
+from py_schema_matching.correspondances.local import sort_group_cumcount
 
 
 def simmetric_best_match(table, col0, col1, sim_name='sim', local=False):

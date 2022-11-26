@@ -1,8 +1,8 @@
 import pandas as pd
 
-from correspondances.local import thresholding, top_k
-from correspondances.global_ import simmetric_best_match, stable_marriage
-from similarity_table.combined import ensemble_sim_table
+from py_schema_matching.correspondances.local import thresholding, top_k
+from py_schema_matching.correspondances.global_ import simmetric_best_match, stable_marriage
+from py_schema_matching.similarity_table.combined import ensemble_sim_table
 
 
 def to_gmt(match_matrix: pd.DataFrame, gat_name='GAT', src_name='SOURCE',

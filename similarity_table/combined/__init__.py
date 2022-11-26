@@ -1,6 +1,6 @@
 import numpy as np
 
-from utils import concat_dfs
+from py_schema_matching.utils import concat_dfs
 import pandas as pd
 
 

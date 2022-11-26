@@ -1,6 +1,6 @@
 import pandas as pd
-from data_integration import match_table
-from utils import concat_dfs
+from py_schema_matching.data_integration import match_table
+from py_schema_matching.utils import concat_dfs
 
 
 def global_match_table(
